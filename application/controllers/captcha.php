@@ -38,7 +38,7 @@ class Captcha extends CI_Controller {
 		$vals = array(
 			'word' => $rand_numer,
 		    'img_path'	=> FCPATH.'/images/captcha/',
-		    'img_url'	=> 'http://localhost/codeIgniter_2/images/captcha/',
+		    'img_url'	=> base_url().'/images/captcha/',
 		    // 'font_path'	=> './path/to/fonts/texb.ttf',
 		    'img_width'	=> 150,
 		    'img_height' => 30,
